@@ -1,0 +1,13 @@
+useTabs: true
+tabWidth: 4
+trailingComma: none
+singleQuote: true
+bracketSameLine: true
+singleAttributePerLine: true
+plugins:
+  - 'prettier-plugin-organize-imports'
+overrides:
+  - files: '*\.(json|yml|yaml)'
+    options:
+      useTabs: false
+      tabWidth: 2
